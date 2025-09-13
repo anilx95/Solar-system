@@ -1,0 +1,31 @@
+meta {
+  name: Swecha
+  type: http
+  seq: 1
+}
+
+get {
+  url: https://api.corpus.swecha.org/api/v1/auth/me
+  body: json
+  auth: bearer
+}
+
+headers {
+  Accept: application/json
+  Content-Type: application/json
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTY0NjQ1MzAsInN1YiI6IjIzNThlNTcyLTFhMGQtNDZkZS04ZmM1LTVjZGMwNzY5ZWIyYSJ9.gnwW4JQvSnGsAgct48KMDNkiGwAbNhuSl9dGjJB9wi0
+}
+
+body:json {
+  {
+    "phone": "+919392347110",
+    "password": "Anil@0095"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
