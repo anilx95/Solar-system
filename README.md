@@ -30,7 +30,8 @@ Solar_system/
 │-- README.md         # Project documentation
 
 
-⚙️ Installation & Usage
+## ⚙️ Installation & Usage
+
 
 ##  Clone this repository:
 
