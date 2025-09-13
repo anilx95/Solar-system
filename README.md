@@ -34,7 +34,7 @@ Solar_system/
 
 ##  Clone this repository:
 
-git clone https://github.com/your-username/Solar_system.git
+git clone https://github.com/anilx95/Solar-system/tree/main
 
 ##  Navigate to the project folder:
 
